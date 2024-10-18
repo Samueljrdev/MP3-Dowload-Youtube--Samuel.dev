@@ -1,0 +1,16 @@
+{
+  "name": "mp3-downloader",
+  "version": "1.0.0",
+  "description": "A web app to download MP3 songs with the best audio quality.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "ytdl-core": "^4.9.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
